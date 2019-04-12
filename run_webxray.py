@@ -321,7 +321,7 @@ def analyze(db_name):
 	analyzer.generate_aggregated_3p_ssl_use_report()
 	
 	# the following reports may produce very large files, you have been warned
-	# analyzer.generate_per_page_data_flow_report()
+	# analyzer.generate_per_page_data_flow_report() # If you uncomment this, you can output per-page reports
 	analyzer.generate_network_report()
 	analyzer.print_runtime()
 # report
