@@ -1,0 +1,17 @@
+bbc.co.uk/news
+https://www.channel4.com/news
+https://www.msn.com/fi-fi
+http://www.talouselama.fi/
+uusisuomi.fi
+https://www.is.fi/taloussanomat/
+kauppalehti.fi
+https://www.mtv.fi
+hs.fi
+https://yle.fi/
+iltalehti.fi
+is.fi
+#ERROR!
+http://www.mvlehti.net/
+http://www.magneettimedia.com/
+kansalainen.fi
+https://www.oikeamedia.com/
