@@ -1,10 +1,8 @@
-Bns.lt
-Elta.lt
-Lfpr.lt
-En.infolex.lt
-Online.5ci.lt
-Balticpress.com
-Euras.lt
-Litnews.lt
-
-## FROM ALEXA RANKINGS
+http://Bns.lt
+http://Elta.lt
+http://Lfpr.lt
+http://En.infolex.lt
+http://Online.5ci.lt
+http://Balticpress.com
+http://Euras.lt
+http://Litnews.lt

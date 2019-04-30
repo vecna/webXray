@@ -1,13 +1,11 @@
-Timesofmalta.com
-Tvm.com.mt
-maltatoday.com.mt
-newsbook.com.mt
-independent.com.mt
-netnews.com.mt
-ladbible.com
+http://Timesofmalta.com
+http://Tvm.com.mt
+http://maltatoday.com.mt
+http://newsbook.com.mt
+http://independent.com.mt
+http://netnews.com.mt
+http://ladbible.com
 http://www.one.com.mt/news/
-yahoo.com/news
-https://www.bbc.com/news
-https://lovinmalta.com/
-
-## FROM ALEXA RANKINGS
+http://yahoo.com/news
+http://www.bbc.com/news
+http://lovinmalta.com/
