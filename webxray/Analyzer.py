@@ -3,6 +3,7 @@ import os
 import re
 import csv
 import json
+import time
 import operator
 import statistics
 import collections
@@ -1291,7 +1292,7 @@ class Analyzer:
 		csv_rows = []
 		
 		# header row for csv		
-		csv_rows.append(('Page Domain','3P Element Domain','3P Domain Owner','3P Domain Owner Country'))
+		csv_rows.append(('Date', 'Page Domain','3P Element Domain','3P Domain Owner','3P Domain Owner Country'))
 		
 		# sql_driver.get_network_ties returns a set of tuples in the format
 		#	(page domain, element domain, element domain owner id)
@@ -1303,7 +1304,7 @@ class Analyzer:
 			if item[1]:
 				# this condition has to specify != None, b/c otherwise it will skip values of 0
 				if item[2] != None:
-					csv_rows.append((item[0],item[1],self.domain_owners[item[2]]['owner_name'],self.domain_owners[item[2]]['country']))
+					csv_rows.append((time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), item[0],item[1],self.domain_owners[item[2]]['owner_name'],self.domain_owners[item[2]]['country']))
 				else:
 					csv_rows.append((item[0],item[1],'Unknown',''))
 		self.write_csv('network.csv', csv_rows)
