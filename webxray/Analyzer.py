@@ -1306,7 +1306,7 @@ class Analyzer:
 				if item[2] != None:
 					csv_rows.append(( time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), item[0],item[1],self.domain_owners[item[2]]['owner_name'],self.domain_owners[item[2]]['country']))
 				else:
-					csv_rows.append(( time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), item[0],item[1],'Unknown',''))
+					csv_rows.append(( time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), item[0],item[1],'',''))
 		self.write_csv('network.csv', csv_rows)
 	# generate_network_report
 # Analyzer
